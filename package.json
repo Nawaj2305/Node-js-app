@@ -1,0 +1,21 @@
+
+{
+  "name": "nodejs-web-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js web application with GitHub Actions CI",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}
+
